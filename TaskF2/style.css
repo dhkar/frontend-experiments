@@ -1,0 +1,31 @@
+.bg-light-custom {
+    background-color: #a7cbee !important;
+}
+
+.carousel-item {
+    background-color: darkslategrey;
+}
+
+.book-title-carousel {
+    -webkit-text-fill-color: beige;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title-cards {
+    -webkit-text-fill-color: seagreen;
+    background-color: lavenderblush;
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+
+.cards-section {
+    background-color: lavenderblush;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    max-width: 540px;
+}

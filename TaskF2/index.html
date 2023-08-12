@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Experiments</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-light-custom">
+
+        <a class="navbar-brand px-4" href="#">BukuAku</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Harga</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Review</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <p class="book-title-carousel fs-2">My #Favorito Book 1</p>
+                <div class="d-flex justify-content-center mb-5">
+                    <img src="kalkulus.png" class="img-fluid" alt="...">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <p class="book-title-carousel fs-2">My #Favorito Book 2
+                </p>
+                <div class="d-flex justify-content-center mb-5">
+                    <img src="kauaku.png" class="img-fluid" alt="...">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <p class="book-title-carousel fs-2">My #Favorito Book 3</p>
+                <div class="d-flex justify-content-center mb-5">
+                    <img src="Par.png" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</body>
+
+
+<p class="title-cards fs-2">My Another Favorite Books</p>
+<div class="cards-section row row-cols-2 g-3">
+    <div class="col">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="kalkulus.png" alt="Kalkulus" class="img-fluid rounded-start" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Kalkulus Jilid I</h5>
+                        <ul class="list-group card-text pt-2">
+                            <li class="list-group-item">Penulis: Purcell</li>
+                            <li class="list-group-item">Penerbit: Erlangga</li>
+                            <li class="list-group-item">Harga: Rp300.000</li>
+                            <li class="list-group-item">Review: Pusing Tapi Seru</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="kauaku.png" alt="Kau,Aku dan Sepucuk Angpau Merah" class="img-fluid rounded-start" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Kau,Aku dan Sepucuk Angpau Merah</h5>
+                        <ul class="list-group card-text pt-2">
+                            <li class="list-group-item">Penulis: Tere Liye</li>
+                            <li class="list-group-item">Penerbit: Gramedia</li>
+                            <li class="list-group-item">Harga: Rp150.000</li>
+                            <li class="list-group-item">Review: Romance dan UWU</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="Par.png" alt="Fundamentals Of Electric Circuits" class="img-fluid rounded-start" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Fundamentals Of Electric Circuits</h5>
+                        <ul class="list-group card-text pt-2">
+                            <li class="list-group-item">Penulis: Sadiku DKK</li>
+                            <li class="list-group-item">Penerbit: McGraw Hill</li>
+                            <li class="list-group-item">Harga: Rp500.000</li>
+                            <li class="list-group-item">Review: Banyak bet itungan listrik</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="BukuCart1.png" alt="ContohBuku" class="img-fluid rounded-start" />
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Buku Kartun</h5>
+                        <ul class="list-group card-text pt-2">
+                            <li class="list-group-item">Penulis: Yang Bikin Animasi</li>
+                            <li class="list-group-item">Penerbit: Yang Bersangkutan </li>
+                            <li class="list-group-item">Harga: Rp120.000</li>
+                            <li class="list-group-item">Review: Masih baca sekilas, belum tau</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
